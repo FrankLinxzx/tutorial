@@ -1,0 +1,1132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)http://skins.freebbs.tw/viewthread.php?tid=205 -->
+<html hola_ext_inject="disabled"><head><meta http-equiv="Content-Type" content="text/html; charset=Big5">
+
+<title>[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 -  LOLskins  - Powered by Discuz!</title>
+<meta name="keywords" content="Discuz!,Board,Comsenz,forums,bulletin board,">
+<meta name="description" content="LOLskins  - Discuz! Board">
+<meta name="generator" content="Discuz! 5.0.0 with Templates 5.0.0">
+<meta name="MSSmartTagsPreventParsing" content="TRUE">
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<meta property="og:title" content="[精華]LOL教你製作skin造型與特效(二)3D模組篇">
+<style type="text/css" id="css">
+body {
+margin: 0px;
+scrollbar-base-color: #F5FBFF;
+scrollbar-arrow-color: #86B9D6;
+font: 12px Tahoma, Verdana;
+background:#000000 url("http://user.freebbs.tw/skins/images/bgcolor.jpg") repeat left top;
+color: #333333;
+}
+legend {
+color: #333333;
+}
+table {
+font: 12px Tahoma, Verdana;
+color: #333333;
+empty-cells: show;
+border-collapse: separate !important;
+border-collapse: collapse;
+}
+
+input, select, textarea {
+font: 12px Tahoma, Verdana;
+color: #333333;
+font-weight: normal;
+background-color: #F5FBFF;
+border: 1px solid #7AC4EA;
+}
+input {
+height: 21px;
+}
+a {
+text-decoration: none;
+color: #154BA0;
+}
+a:hover {
+text-decoration: underline;
+}
+.checkbox, .radio {
+border: 0px;
+background: none;
+vertical-align: middle;
+height: 16px;
+}
+.button {
+font: 12px Tahoma, Verdana;
+padding: 0 5px;
+color: #154BA0;
+background-image: url("/images/default/header_bg.gif");
+background-repeat: repeat-x;
+background-position: 0 50%;
+outline: 1px solid #86B9D6;
+border: 1px solid #FFF !important;
+height: 19px !important;
+border: 1px solid #86B9D6;
+height: 21px;
+line-height: 17px;
+}
+.lightbutton {
+background: #FFFFFF;
+border: 1px solid #BBE9FF;
+color: #154BA0;
+}
+form {
+margin: 0px;
+padding: 0px;
+}
+.nav {
+font: 12px Tahoma, Verdana;
+color: #154BA0;
+font-weight: bold;
+}
+.nav a {
+color: #154BA0;
+}
+.header {
+font: 12px Arial, Tahoma !important;
+font-weight: bold !important;
+font: 11px Arial, Tahoma;
+font-weight: bold;
+color: #154BA0;
+background-image: url("/images/default/header_bg.gif");
+height: 30px;
+padding-left: 10px;
+}
+.header td {
+padding-left: 10px;
+}
+.header a {
+color: #154BA0;
+}
+.header input {
+background:none;
+vertical-align: middle;
+height: 16px;
+}
+.mainborder {
+clear: both;
+height: 8px;
+font-size: 0px;
+line-height: 0px;
+padding: 0px;
+background-color: #154BA0;
+}
+.headerline {
+font-size: 0px;
+line-height: 0px;
+padding: 0px;
+background: #F5FBFF}
+#announcement {
+color: #92A05A;
+border: 1px solid #DEDEB8;
+background-color: #FFFFD9;
+margin-bottom: 5px;
+padding: 5px 0px;
+}
+.headermenu {
+background-color: #86B9D6;
+height: 30px;
+}
+#menu, #menu a {
+color: #154BA0;
+padding-top: 7px !important;
+padding-top: 6px;
+}
+.footerline {
+height: 6px;
+background-image: url("/images/default/footer_line.gif");
+}
+.footerline div {
+background:#000000 url("http://user.freebbs.tw/skins/images/bgcolor.jpg") repeat left top;
+position: relative;
+float: right;
+right: 40px;
+}
+.absmiddle {
+vertical-align: middle;
+}
+.msgheader {
+margin:0 2em;
+font-weight: bold;
+background: #F3F8D7;
+padding: 5px;
+color: #000000}
+.msgborder {
+margin: 0 2em;
+padding: 10px;
+border: 1px solid #DEDEB8;
+word-break: break-all;
+background: #FDFFF2;
+overflow: hidden;
+}
+.category {
+font: 12px Arial, Tahoma !important;
+font: 11px Arial, Tahoma;
+color: #92A05A;
+background-color: #FFFFD9;
+}
+.category td {
+border-bottom: 1px solid #DEDEB8;
+}
+.tableborder {
+background: white;
+outline: 1px solid #86B9D6;
+border: 0px !important;
+border: 1px solid #86B9D6;
+}
+.spaceborder {
+width: 100%;
+border: 1px solid #86B9D6;
+padding: 1px;
+clear: both;
+}
+.singleborder {
+font-size: 0px;
+line-height: 1px;
+padding: 0px;
+background-color: #F5FBFF;
+}
+.smalltxt {
+font: 12px Arial, Tahoma !important;
+font: 11px Arial, Tahoma;
+}
+.lighttxt {
+color: #666666}
+.outertxt {
+font: 12px Tahoma, Verdana;
+color: #333333;
+}
+.outertxt a {
+color: #333333;
+}
+.todayposts {
+color: #154BA0;
+}
+.option {
+padding: 1px;
+width: 98%;
+height: 35px;
+border: 1px solid #BBE9FF;
+background-color: #F5FBFF;
+}
+.submitbutton {
+margin-top: 8px !important;
+margin-top: 6px;
+margin-bottom: 5px;
+text-align: center;
+}
+.postsubmit {
+border: 1px solid #DEDEB8;
+background-color: #FFFFD9;
+text-align: center;
+padding: 10px 0px;
+margin-top: 6px;
+}
+.avatar {
+border: 1px solid #DEDEB8;
+background-color: #FFFFD9;
+padding: 3px;
+}
+.avatar img {
+background: #000000 bgcolor.jpg repeat;
+}
+.bold {
+font-weight: bold;
+}
+.altbg1	{
+background: #F5FBFF;
+font: 12px Tahoma, Verdana;
+}
+td.altbg1 {
+border-bottom: 1px solid #BBE9FF;
+}
+.altbg2 {
+background: #FFFFFF;
+font: 12px Tahoma, Verdana;
+}
+td.altbg2 {
+border-bottom: 1px solid #BBE9FF;
+}
+.bottom, .bottom td, td.bottom {
+border-bottom: 0px;
+}
+.spacebottom {
+padding-bottom: 10px;
+background: #FFFFFF;
+}
+.tdunderline td {
+ border-top: 1px solid #BBE9FF;
+ border-bottom: 1px solid #BBE9FF;
+}
+.maintable{
+width: 98%;
+font: 12px Tahoma, Verdana;
+}
+.subtable {
+text-align: left;
+padding: 0;
+margin: 0 auto;
+}
+.simpletable {
+border: 1px solid #86B9D6;
+padding: 1px;
+clear: both;
+}
+.simpletable .header {
+background-image: url("/images/default/header_bg.gif");
+padding-top:7px;
+padding-bottom:0px;
+height: 21px !important;
+height: 30px;
+}
+.simpletable div {
+padding: 4px;
+}
+.left {
+float: left;
+text-align: left;
+padding: 0px;
+}
+.right {
+float: right;
+text-align: right;
+padding: 0px;
+}
+.line {
+border-top:1px solid #BBE9FF;
+}
+.row {
+width: 100%;
+border: none;
+background: #FFFFFF;
+empty-cells: show;
+}
+.row td {
+padding: 4px;
+border-bottom: 1px solid #BBE9FF;
+}
+.row1 {
+width: 100%;
+border: none;
+background: #F5FBFF;
+empty-cells: show;
+}
+.row1 td {
+padding: 4px;
+border-bottom: 1px solid #BBE9FF;
+}
+.newspecial {
+text-align:center;
+font-size:14px;
+font-weight: bold;
+}
+.newspecialmenu {
+width: 86px;
+}
+.signature {
+height: expression(minY = (this.scrollHeight < parseInt(this.currentStyle.minHeight) + 1) ? this.currentStyle.minHeight : maxY = (this.scrollHeight > parseInt(this.currentStyle.maxHeight) + 1) ? this.currentStyle.maxHeight : "auto");
+}
+.percent {
+ height: 10px !important;
+ height: 12px;
+ border: 1px solid #86B9D6;
+ float: left;
+ padding: 0px;
+}
+.percent div {
+background-image: url("/images/default/header_bg.gif");
+background-repeat: repeat-x;
+background-position: 0 50%;
+width: 100%;
+height: 8px;
+line-height: 0px;
+font-size: 0px;
+margin: 1px;
+padding: 0px;
+}
+.percenttxt {
+float:left;
+font: 11px Arial, Tahoma;
+padding-top: 2px !important;
+padding-top: 1px;
+font-weight: bold;
+}
+.percenttxt u {
+text-decoration: none;
+font-weight: normal;
+color: #666666;
+}
+.paddingmenu td{
+padding: 6px;
+}
+
+.f_folder {
+width: 4%;
+text-align: center;
+}
+.f_icon {
+width: 25px;
+text-align: center;
+}
+.f_title {
+width: 55%;
+}
+.subject a, .f_title a {
+color: #333333;
+}
+.f_author {
+width: 12%;
+text-align: center;
+}
+.f_views {
+width: 8%;
+text-align: center
+}
+.f_last	{
+width: 17%;
+text-align: center;
+}
+
+.t_row {
+margin-top: -1px;
+}
+.t_user	{
+word-break: break-all;
+padding-left: 8px;
+background: #F5FBFF;
+}
+.t_msg {
+table-layout: fixed;
+word-wrap: break-word;
+width: 100%;
+height: 100%;
+overflow: hidden;
+background: #FFFFFF}
+.t_msg p {
+margin: 0px;
+}
+.t_msg td {
+padding:2px 10px;
+}
+.t_number {
+border: 1px solid #DEDEB8;
+padding: 2px;
+margin: 1px;
+background: #FDFFF2;
+}
+.t_infoline {
+background: #FDFFF2;
+}
+.t_table {
+border-left: 1px solid #86B9D6;
+border-top: 1px solid #86B9D6;
+border-spacing: 0px;
+}
+.t_table td {
+padding: 4px;
+border-bottom: 1px solid #86B9D6;
+border-right: 1px solid #86B9D6;
+}
+
+.p_bar {
+margin: 1px 0px;
+clear: both;
+}
+.p_bar a {
+float: left;
+padding: 1px 4px;
+font-size: 12px;
+text-decoration: none;
+}
+.p_input {
+border: 0px;
+padding: 0px;
+width: 40px;
+height: 16px !important;
+height: 15px;
+margin: 0px;
+background: #FFFFFF;
+}
+.p_total {
+background-color: #F5FBFF;
+border: 1px solid #86B9D6;
+border-right: 0px solid #86B9D6;
+font-weight: bold;
+}
+.p_pages {
+background-color: #F5FBFF;
+border: 1px solid #86B9D6;
+margin-right:1px;
+vertical-align: middle;
+font-weight: bold;
+}
+.p_num {
+background-color: #FFFFFF;
+border: 1px solid #DEDEB8;
+margin-right:1px;
+vertical-align: middle;
+}
+a:hover.p_num  {
+background-color: #F5FBFF;
+border: 1px solid #86B9D6;
+text-decoration: none;
+}
+.p_redirect {
+background-color: #FFFFFF;
+border: 1px solid #DEDEB8;
+margin-right:1px;
+font-size: 11px !important;
+font-size: 13px;
+}
+a:hover.p_redirect {
+background-color: #F5FBFF;
+border: 1px solid #86B9D6;
+text-decoration: none;
+}
+.p_curpage {
+margin-right:1px;
+border: 1px solid #DEDEB8;
+vertical-align: middle;
+background-color: #FFFFD9;
+color: #92A05A;
+font-weight: bold;
+}
+
+.wysiwyg {
+font: 11pt Tahoma, Verdana;
+border: 1px #DDDDDD solid;
+padding: 4px;
+word-break: break-all;
+}
+.wysiwyg a {
+text-decoration: underline;
+color: #154BA0;
+}
+.editor	{
+background: #F5FBFF;
+border: 1px solid #BBE9FF;
+border-bottom: 1px solid #86B9D6;
+}
+.editor_line {
+border-top:1px solid #86B9D6;
+}
+.editor_switcher {
+position: relative;
+top: 1px;
+border-bottom: 1px solid #86B9D6;
+background: #F5FBFF;
+margin-left: 10px;
+vertical-align: middle;
+}
+.editor_switcher_highlight {
+position: relative;
+top: 1px;
+border-bottom: 1px solid #FFFFFF;
+background: #FFFFFF;
+margin-left: 10px;
+vertical-align: middle;
+font-weight: bold;
+}
+.editor_text {
+font: 11pt Tahoma, Verdana;
+border: 1px solid #86B9D6;
+border-top: 0px;
+background: #FFFFFF;
+}
+.editor_text textarea {
+border: 0px;
+background: #FFFFFF;
+overflow: auto;
+padding: 4px;
+word-break: break-all;
+}
+.editor_button {
+background: #F5FBFF;
+border: 1px solid #BBE9FF;
+border-top: 1px solid #86B9D6;
+position: relative;
+top: -1px;
+margin-bottom: 6px;
+}
+.editor_textexpand {
+float: left;
+position: relative;
+top: -3px;
+border-top: 0px;
+}
+.editor_buttonnormal {
+background: #F5FBFF;
+color: #000000;
+padding: 1px;
+border: none;
+}
+.editor_buttondown, .editor_buttonhover, .editor_buttonselected {
+background: #F5FBFF;
+color: #000000;
+padding: 0px;
+border: 1px solid #86B9D6;
+}
+.editor_menunormal, .editor_menuhover {
+font: 11px tahoma;
+height: 18px;
+padding: 0px 3px 0px 3px;
+white-space: nowrap;
+overflow: hidden;
+background: #FFFFFF;
+color: #000000;
+}
+.editor_menunormal {
+border-right: 1px solid #FFFFFF;
+}
+.editor_menuhover {
+border-right: 1px solid #86B9D6;
+}
+.editor_menuhover div, .editor_menunormal div {
+background: #FFFFFF;
+color: #000000;
+}
+.editor_colormenunormal {
+border-right: 1px solid #FFFFFF;
+}
+.editor_colormenuhover {
+border-right: 1px solid #86B9D6;
+}
+.editor_colornormal {
+padding: 2px;
+font-size: 1px;
+}
+.editor_colorhover {
+background: #86B9D6;
+white-space: nowrap;
+padding: 2px;
+font-size: 1px;
+}
+.editor_colornormal div {
+width: 10px;
+height: 10px;
+border: 1px solid #92A05A;
+}
+.editor_colorhover div {
+width: 10px;
+height: 10px;
+border: 1px solid #86B9D6;
+}
+
+.popupmenu_popup {
+color: #154BA0;
+border: 1px solid #86B9D6;
+}
+.popupmenu_option {
+background: #D9EEF9;
+color: #154BA0;
+font: 12px Tahoma, Verdana;
+white-space: nowrap;
+padding:3px 8px;
+cursor: pointer;
+}
+.popupmenu_option a {
+color: #154BA0;
+padding:3px 8px;
+text-decoration: none;
+}
+.headermenu_popup {
+color: #154BA0;
+border: 1px solid #86B9D6;
+border-top: 0px;
+margin-top: 8px;
+}
+.headermenu_popup a {
+color: #154BA0;
+text-decoration: none;
+}
+.popupmenu_highlight {
+background: #7AC4EA;
+color: #86B9D6;
+font: 12px Tahoma, Verdana;
+white-space: nowrap;
+padding:3px 8px;
+cursor: pointer;
+}
+.popupmenu_highlight a {
+color: #86B9D6;
+padding:3px 8px;
+text-decoration: none;
+}
+
+.expire, .expire a:link, .expire a:visited {
+color: #999999;
+}
+.default, .default a:link, .default a:visited {
+color: #000000;
+}
+.checked, .checked a:link, .checked a:visited {
+color: #FF0000;
+}
+.today, .today a:link, .today a:visited {
+color: #00BB00;
+}
+#calendar_year {
+display: none;
+line-height: 130%;
+background: #86B9D6;
+position: absolute;
+z-index: 10;
+}
+#calendar_year .col {
+float: left;
+background: #86B9D6;
+margin-left: 1px;
+border: 1px solid #86B9D6;
+padding: 4px;
+}
+#calendar_month {
+display: none;
+background: #86B9D6;
+line-height: 130%;
+border: 1px solid #86B9D6;
+padding: 4px;
+position: absolute;
+z-index: 11;
+}
+</style>
+<script type="text/javascript" src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/common.js"></script><style type="text/css"></style><style type="text/css" id="defaultPopStyle">.cPopText { font-family: Tahoma, Verdana; background-color: #FFFFCC; border: 1px #000000 solid; font-size: 12px; padding-right: 4px; padding-left: 4px; line-height: 18px; padding-top: 2px; padding-bottom: 2px; visibility: hidden; filter: Alpha(Opacity=80)}</style></head><body onkeydown="if(event.keyCode==27) return false;"><div id="popLayer" style="position: absolute; z-index: 1000; visibility: hidden; left: 340px; top: 2561px;" class="cPopText">Click here to open new window<br>Mouse wheel to zoom in/out</div>
+<script type="text/javascript" src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/menu.js"></script>
+<script type="text/javascript">var adid=0;var adid2=0;</script>
+
+
+
+<center>
+<div class="mainborder" style="background-color:transparent"></div>
+<div class="maintable" style="margin-bottom:5px;"><div style="width: 100%; text-align: left;">
+<div class="right"><br><a href="http://skins.freebbs.tw/announcement.php?id=3#3" target="_blank" style="font-size: 5em">廣告出租</a></div>
+<a href="http://skins.freebbs.tw/index.php"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/logo.gif" border="0"></a>
+</div></div>
+<div class="maintable" style="background-color:white;">
+<div class="maintable">
+<div class="headermenu" style="background:none;">
+<div align="center" id="menu" style="padding-right:5px;">
+<style type="text/css">#menu, #menu a{color:black;}</style>
+<span class="bold">遊客: &nbsp;</span><a href="http://skins.freebbs.tw/register.php">註冊</a>
+| <a href="http://skins.freebbs.tw/logging.php?action=login">登錄</a>
+</div></div></div>
+<div class="maintable">
+<br>
+<div style="padding:0 20px;">
+<div class="subtable nav" style="width:98%">
+<a href="http://skins.freebbs.tw/index.php">LOLskins</a>
+ &#187; <a href="http://skins.freebbs.tw/forumdisplay.php?fid=53">&#10084;Skins精華</a> &#187; [精華]LOL教你製作skin造型與特效(二)3D模組篇</div>
+<div style="min-height:0;height:auto !important;height:0;margin:0;padding:0;background-color:transparent;">
+<div style="width:98%;" align="left">
+        	<script>
+                var adid="975";
+                document.write('<link href="cc_freebbs.css" rel="stylesheet" type="text/css">');
+                </script><link href="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/cc_freebbs.css" rel="stylesheet" type="text/css">
+                
+                <!--YSM BEGIN(2)-->  
+                <div id="ysmAD975_2" align="left"></div>
+                <!--YSM END(2)-->
+</div>
+</div>
+<div style="width:100%;clear:both;">
+<table width="98%" cellspacing="0" cellpadding="0" align="center" style="clear: both;">
+<tbody><tr><td valign="top">
+<div style="margin-bottom: 4px;margin:0;">
+</div>
+</td><td width="40%" align="right" valign="bottom">
+<div class="right">&nbsp;<a href="http://skins.freebbs.tw/post.php?action=reply&fid=53&tid=205&extra=">
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/reply.gif" border="0" alt="">
+</a></div>
+<div id="newspecialheader" class="right"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=">
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/newtopic.gif" border="0" alt="">
+</a><script type="text/javascript">menuregister(false, "newspecialheader", true)</script></div>
+<div class="popupmenu_popup newspecialmenu" id="newspecialheader_menu" style="display: none; width: 88px;">
+<table cellpadding="4" cellspacing="0" border="0" width="100%">
+<tbody><tr><td class="popupmenu_option"><div class="newspecial"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=&poll=yes">投票</a></div></td></tr>
+<tr><td class="popupmenu_option"><div class="newspecial"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=&trade=yes">交易</a></div></td></tr>
+<tr><td class="popupmenu_option"><div class="newspecial"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=&reward=yes">懸賞</a></div></td></tr>
+<tr><td class="popupmenu_option"><div class="newspecial"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=&activity=yes">活動</a></div></td></tr>
+</tbody></table></div>
+</td></tr></tbody></table></div>
+<script type="text/javascript">
+function fastreply(subject) {
+if($('postform')) {
+$('postform').subject.value = subject;
+$('postform').message.focus();
+}
+}
+</script>
+
+<div>
+<div class="spaceborder" style="width: 98%; border-bottom: none">
+<table cellspacing="0" cellpadding="4" width="100%" align="center">
+<tbody><tr class="header"><td colspan="2" style="color: #154BA0">
+<div class="right" style="font-weight: normal">
+<a href="http://skins.freebbs.tw/viewthread.php?action=printable&tid=205" target="_blank">打印</a> |
+<a href="http://skins.freebbs.tw/misc.php?action=emailfriend&tid=205">推薦</a> |
+<a href="http://skins.freebbs.tw/my.php?item=subscriptions&subadd=205">訂閱</a> |
+<a href="http://skins.freebbs.tw/my.php?item=favorites&favadd=205&type=thread">收藏</a>
+</div>
+標題:
+<a href="http://skins.freebbs.tw/forumdisplay.php?fid=53&filter=type&typeid=4">[心得]</a> [精華]LOL教你製作skin造型與特效(二)3D模組篇</td></tr>
+</tbody></table></div>
+
+<form method="post" name="delpost" action="http://skins.freebbs.tw/topicadmin.php?action=delpost&fid=53&tid=205&page=1">
+<input type="hidden" name="formhash" value="fc5414ab">
+<div class="spaceborder" style="width: 98%; margin-bottom: 4px;
+border-top: none;
+">
+<table cellspacing="0" cellpadding="4" width="100%" align="center" class="t_row">
+<tbody><tr> <td width="100%" valign="top" class="t_user" style="padding-top:10px;background-color:white;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td width="13%" align="center" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed; overflow: hidden;">
+<tbody><tr><td align="center"><div class="avatar" style="width: 80"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/98.jpg" width="80" height="80" border="0" alt=""></div></td></tr></tbody></table>
+</td>
+<td width="45%" align="left" valign="top" style="padding-left:10px;color:green;">
+<a href="http://skins.freebbs.tw/viewpro.php?uid=1" target="_blank" class="bold">acesam</a>
+<br><div class="smalltxt">
+管理員<br>
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 9"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 9"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 9"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 9"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 9"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 9"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 9"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 9"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 9"><br>
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/medal3.gif" border="0" alt="高級會員"> &nbsp;
+<br>
+<br>
+積分 966<br>
+帖子 913<br>
+註冊 2013-4-13<br>
+用戶註冊天數 686<br>
+</div>
+發表於 2013-4-20 23:00&nbsp;
+</td>
+<td width="42%" align="right" valign="top">
+<div class="right t_number"><a href="http://skins.freebbs.tw/viewthread.php?tid=205###" class="bold" onclick="window.clipboardData.setData(&#39;text&#39;,&#39;http://skins.freebbs.tw/viewthread.php?tid=205&amp;page=1#pid226&#39;)">#1</a></div>
+<div style="padding-top: 4px;">
+<style type="text/css">
+a.fbshare{display:inline-block;border:1px solid black;height:16px;background:url(https://s-static.ak.facebook.com/images/share/links/fb-button-icon18.png) no-repeat -1px -1px;text-decoration:none;overflow:hidden;cursor:pointer;}
+a.fbshare span{display:inline-block;margin:0 0 0 17px;padding:0 8px;line-height:16px;background:#5b74a8;color:white;font-family:'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;font-size:9pt;font-weight:bold;}
+</style>
+<a id="fbbtn" class="fbshare" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fskins.freebbs.tw%2Fviewthread.php%3Ftid%3D205" onclick="window.open(this.href, &#39;sharer&#39;, &#39;toolbar=0,status=0,width=640,height=353&#39;);return false;" target="_blank"><span>分享</span></a>
+<a href="javascript:;" title="推文到噗浪" onclick="void(window.open(&#39;http://www.plurk.com/?qualifier=shares&amp;status=&#39;.concat(encodeURIComponent(&#39;[精華]LOL教你製作skin造型與特效(二)3D模組篇&#39; + &#39; &#39;)).concat(encodeURIComponent(location.href))));"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/plurk.png" width="21" height="20" align="absmiddle" style="border:0;"></a>&nbsp;
+<a href="http://skins.freebbs.tw/pm.php?action=send&uid=1" target="_blank">短消息</a>&nbsp;
+<a href="http://skins.freebbs.tw/viewthread.php?tid=205###" onclick="scroll(0,0)"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/top.gif" border="0" alt="頂部"></a>
+</div>
+</td>
+</tr></tbody></table>
+</td>
+</tr>
+<tr><td valign="top" class="" height="100%" style="padding-top:10px;">
+<table class="t_msg" cellspacing="0" cellpadding="0" border="0" width="100%"><tbody><tr><td style="padding:0;">
+<a name="pid226" href="http://skins.freebbs.tw/misc.php?action=viewratings&tid=205&pid=226" title="評分 0"></a>
+<div style="font-size: 11pt;padding-left:30px;"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font size="5"><font color="#8b0000">轉帖請註明轉載自 </font></font><font size="5"><font color="#ff0000">LOLskins</font></font><font size="5"><font color="#ff0000">論壇</font></font><font size="5"><font color="#8b0000"> </font></font></font></font></font></font></font></font></font><br>
+<font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font size="5"><font color="#8b0000"><br>
+</font></font></font></font></font></font></font></font></font><font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">這一次要教大家的是比較複雜的三維模組修改這方面可能需要些電腦基礎</font></font></font></font><br>
+<font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">另外還要準備</font><font style="font-size: 15px">Autodesk Maya與插件</font></font></font></font></font></font><br>
+<font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">如果你只是單純修改LOL角色服裝與圖片</font></font></font></font><br>
+<font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">建議你學第一篇教的或下載其他人做的</font></font></font></font><br>
+<font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">真要學人物模組修改這是條非常漫長的路 <img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/22.gif" smilieid="31" border="0" alt=""></font></font></font></font> <br>
+<br>
+<font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><br>
+</font></font></font></font></font></font></font><br>
+<font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">準備:</font></font></font></font></font></font></font></font></font></font><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font color="#0000ff"><font style="font-size: 15px">Autodesk Maya</font></font></font></font></font></font></font></font><br>
+<br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">Maya 插件 </font></font></font></font></font></font></font><font face="Arial, Helvetica, simsun, u5b8bu4f53"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font color="#424242"><font style="font-size: 14px">RiotFileTranslator</font></font></font></font></font></font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">1.</font></font></font></font></font><a href="http://forum.leaguecraft.com/index.php?/topic/26258-riotfiletranslator-plugin-for-autodesk-maya-20112012-x86x64/" target="_blank">RiotFileTranslator</a><br>
+<font face="Arial, Helvetica, simsun, u5b8bu4f53"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 14px">2.百度网&#30424;：<font color="#111111"><a href="http://pan.baidu.com/share/link?shareid=268135&uk=1594178678" target="_blank">http://pan.baidu.com/share/link?shareid=268135&amp;uk=1594178678</a></font></font></font></font></font></font></font></font><br>
+<br>
+<font style="font-size: 11pt">解壓放到MAYA資料夾</font><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px"><br>
+在maya操作界面window-&gt;setting/preferences-&gt;plug-in Manager裡面打開RiotFileTranslator.mll插件服務</font><br>
+</font></font><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">......................................................................................................................................</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><font style="font-size: 11pt"><br>
+</font></font></font></font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><font style="font-size: 11pt">首先注意的是舊的模型不見得能套用到改版新的遊戲中喔!!!<br>
+<font style="font-size: 11pt">建議讀取最新遊戲版本模組再下去更改</font><br>
+另外,模組變更後角色動作沒變更可能導致破圖<br>
+儲存時,注意大小<br>
+<br>
+<br>
+註:教學模型取自遊戲基地<a href="http://lol.zones.gamebase.com.tw/skin_diy" target="_blank">http://lol.zones.gamebase.com.tw/skin_diy</a><br>
+自行修改請取目前遊戲依照第一篇教學提取...(遊戲基地模型目前測試無法套用到遊戲)<br>
+<br>
+<br>
+以<a href="http://lol.zones.gamebase.com.tw/skin_diy/?c=caitlyn&cs=485#main_title" target="_blank">性感警長 凱特琳</a>為例:<br>
+放入caitlyn_cop.obj<br>
+<br>
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/xNt1Ple.jpg" border="0" onload="if(this.width&gt;screen.width*0.7) {this.resized=true; this.width=screen.width*0.7; this.alt=&#39;Click here to open new window\nMouse wheel to zoom in/out&#39;;}" onmouseover="if(this.width&gt;screen.width*0.7) {this.resized=true; this.width=screen.width*0.7; this.style.cursor=&#39;hand&#39;; this.alt=&#39;Click here to open new window\nMouse wheel to zoom in/out&#39;;}" onclick="if(!this.resized) {return true;} else {window.open(&#39;http://i.imgur.com/xNt1Ple.jpg&#39;);}" onmousewheel="return imgzoom(this);" alt="" width="1007"><br>
+<br>
+<br>
+取掉大腿上的子彈<br>
+<br>
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/9zSgl1v.jpg" border="0" onload="if(this.width&gt;screen.width*0.7) {this.resized=true; this.width=screen.width*0.7; this.alt=&#39;Click here to open new window\nMouse wheel to zoom in/out&#39;;}" onmouseover="if(this.width&gt;screen.width*0.7) {this.resized=true; this.width=screen.width*0.7; this.style.cursor=&#39;hand&#39;; this.alt=&#39;Click here to open new window\nMouse wheel to zoom in/out&#39;;}" onclick="if(!this.resized) {return true;} else {window.open(&#39;http://i.imgur.com/9zSgl1v.jpg&#39;);}" onmousewheel="return imgzoom(this);" alt="" width="1007"><br>
+<br>
+另存新檔 </font></font></font></font></font></font><font size="4"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><font face="Tahoma, Verdana">caitlyn.skn</font></font></font></font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">然後使用7-ZIP打開遊戲路徑:</font></font></font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">GarenaTWLoL\GameData\Apps\LoLTW\Game\CharacterSkins.zip\DATA\Characters\Caitlyn\</font></font></font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">將Caitlyn.skn丟進去,大功告成 <img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/20.gif" smilieid="29" border="0" alt=""></font></font></font> <br>
+<br>
+<font size="4"><font style="font-size: 11pt"><font face="Tahoma, Verdana">本來是想寫到這裡就好,因為我修改了骨架動作後都會破圖</font><br>
+<font face="Tahoma, Verdana">不過還是提供MAYA的修改方法供參考:</font></font></font><br>
+<br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">一、如何在MAYA中導入英雄的3D模型？如何將紋理貼圖綁定到模型上？</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">1、使用“Import”，選擇轉換好的.obj文件即可加載模型。</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">2、使用“Window - Rendering Editors - Hypershade” ，在左邊的目錄中選擇“Surface”，新建一個“Blnn”類型的材質球</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">3、指定該“Blnn”材質球的“Common Material Attributes - Color”為“File”（注意用右鍵點“File”，選“Create Texture”）</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">4、在“File Attributes - Image Name” 中選擇需要的紋理貼圖文件</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">5、按 6 即可查看~</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">二、如何提取英雄的3D骨骼？如何在Maya 中載入英雄的3D骨骼？</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">1、在Script Editor中的Python部分輸入以下代碼：</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">from maya import mel</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">import maya.cmds as cmds</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">def importSkeleton(fileName):</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">f = open(fileName,"rb")</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">f.readline()</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">f.readline()</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">f.readline()</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">numBones = int(f.readline())</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">bones = []</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">for i in range(0,numBones):</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;boneName = f.readline().split()[0]</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;parent = int(f.readline())</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;scale = float(f.readline())</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;matrix = []</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;matrix.append(f.readline().split())</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;matrix.append(f.readline().split())</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;matrix.append(f.readline().split())</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;bones.append((i,boneName,parent,scale,matrix))</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">for bone in bones:</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;cmds.select(d=True)</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;cmds.joint(p=(float(bone[4][0][3]),float(bone[4][1][3]),float(bone[4][2][3])), n=bone[1]+"_"+str(bone[0]))</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">for bone in bones:</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp;&nbsp;if bone[2] != -1:</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp; &nbsp;cmds.select(bone[1]+"_"+str(bone[0]))</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp; &nbsp;cmds.select(bones[bone[2]][1]+"_"+str(bones[bone[2]][0]),add=True)</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">&nbsp; &nbsp;cmds.parent()</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">2、點選菜單中的“execute”</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">3、退出Script Editor，在命令行中輸入以下指令（請更改骨骼txt文件的文件名和路徑，目錄請注意使用雙斜杠）如: python "importSkeleton('C:\\Morgana\\Morgana.skl.txt' )"</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">三、怎樣知道模型不同區域與紋理貼圖文件不同區域的對應關係？</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">1、在Maya 中選好希望查看對應關係的模型，然後選擇"Window - UV Texture Editor" 即可查看，</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">2、如果需要生成不帶紋理的對應關係圖，請在該編輯器中選擇“Polygons - UV Snapshot...” ，尺寸請指定為512x512 或其它等比例尺寸~</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">四、如何導出已經在MAYA中修改完成的英雄3D模型？</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">1、修改好模型後（一定記得要讓模型先Triangulate），使用“Script Editor” 在Mel 部分載入“Maya_LoL_skn_export.mel”</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">2、然後選擇希望輸出的模型，然後輸入（記得更改成你需要的文件名字和路徑哦）： exportMesh("C:\\Path\\File.txt")</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">3、由於模型已經轉成.txt 文件，下面我們運行"lolskintool.exe c skn File.txt File.skn" 來得到符合遊戲標準的.skn 模型文件~</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">五、如何修改英雄載入畫面？如何讓載入畫面顯示正確的圖片比例？</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">1、創建好您希望用做載入畫面的圖片，等比例縮放到寬362個像素（高須大於570），移動、剪切調整到高570個像素</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">2、非等比縮放（“雙立方”方式）到307像素寬，483像素高</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">3、裁切畫佈到301像素寬，477像素高，將畫布底色設定為純黑，重新將畫布擴大到307像素寬，483像素高</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">4、從上向下擴大畫佈到307像素寬，557像素高，將文件保存為PNG 格式</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">3、使用The Compressonator 載入PNG文件，然後使用“Save Original...” 功能另存為英雄名稱+“LoadScreen.dds” 文件</font></font></font><br>
+<font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">4、放到英雄聯盟安裝目錄的ZIP裡 即可</font></font></font><br>
+<br>
+<br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">這裡有較完整初步的視頻教學: </font></font></font><a href="http://vimeo.com/21928069" target="_blank">http://vimeo.com/21928069</a><br>
+<br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">變動骨架SKL檔目前測試會破圖,建議SKL檔動作先不要改變</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">要學習MAYA可將skl與skn檔一起丟進去,可以玩玩...</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">ANM特效可使用模凝器自爽 <img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/12.gif" smilieid="6" border="0" alt=""></font></font></font> <br>
+<br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">角色著圖已在第一篇教過了</font></font></font><br>
+<br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">其他更複雜的修改我就不多說了</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">畢竟這是很專業的3d模組建構</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">想學的話沒有一年半載是學不到的</font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt">祝大家開心玩遊戲...</font></font></font><br>
+<br>
+<br>
+<br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><font style="font-size: 11pt">教你MAYA建構整個人物</font></font></font></font></font></font><br>
+<a href="http://www.cgmodel.cn/forum.php?mod=forumdisplay&fid=146&filter=typeid&typeid=103" target="_blank">[Max教&#23398;]</a> <a href="http://www.cgmodel.cn/thread-23196-1-1.html" target="_blank">人体建模全&#36807;程</a> <font face="Tahoma,"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><a href="http://www.cgmodel.cn/thread-23196-1-1.html" target="_blank">[</a><a href="http://www.cgmodel.cn/forum.php?mod=viewthread&tid=23196&extra=page%3D1%26filter%3Dtypeid%26typeid%3D103%26typeid%3D103" target="_blank">复制&#38142;接</a><a href="http://www.cgmodel.cn/thread-23196-1-1.html" target="_blank">]</a></font></font></font></font></font></font></font><br>
+<br>
+<a href="http://forum.leaguecraft.com/index.php?app=core&module=attach&section=attach&attach_id=4495" target="_blank">RiotEditor.zip</a><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><font style="font-size: 11pt">&nbsp;&nbsp;</font></font></font></font></font></font><a href="http://forum.leaguecraft.com/index.php?app=core&module=attach&section=attach&attach_id=4495" target="_blank">http://forum.leaguecraft.com/index.php?app=core&amp;module=attach§ion=attach&amp;attach_id=4495</a><br>
+<br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 15px">不錯的模型下載網&nbsp;&nbsp;<a href="http://www.cgmodel.cn/" target="_blank">http://www.cgmodel.cn/</a></font></font></font></font></font></font></font></font></font></font></font></font><br>
+<br>
+<br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><font face="Tahoma, Verdana"></font></font></font></font></font></font></font></font></font><br>
+<font face="Tahoma, Verdana"><font style="font-size: 11pt"><font style="font-size: 11pt"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/HF4AFoP.jpg" border="0" onload="if(this.width&gt;screen.width*0.7) {this.resized=true; this.width=screen.width*0.7; this.alt=&#39;Click here to open new window\nMouse wheel to zoom in/out&#39;;}" onmouseover="if(this.width&gt;screen.width*0.7) {this.resized=true; this.width=screen.width*0.7; this.style.cursor=&#39;hand&#39;; this.alt=&#39;Click here to open new window\nMouse wheel to zoom in/out&#39;;}" onclick="if(!this.resized) {return true;} else {window.open(&#39;http://i.imgur.com/HF4AFoP.jpg&#39;);}" onmousewheel="return imgzoom(this);" alt=""></font></font></font><br>
+<br>
+<font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font face="Tahoma, Verdana"><font size="6"><font face="Tahoma, Verdana"><font color="#8b0000"><font face="Tahoma, Verdana">轉帖請註明轉載自 </font></font></font><font face="Tahoma, Verdana"><font color="#ff0000"><font face="Tahoma, Verdana">LOLskins</font></font></font><font face="Tahoma, Verdana"><font color="#ff0000"><font face="Tahoma, Verdana">論壇</font></font></font></font><font face="Tahoma, Verdana"><font style="font-size: 11pt"><font color="#8b0000"><font face="Tahoma, Verdana"> </font></font></font></font></font></font></font></div>
+<br><br>
+</td></tr></tbody></table></td></tr>
+<tr><td align="right">
+</td></tr>
+</tbody></table></div>
+<div class="spaceborder" style="width: 98%; margin-bottom: 4px;
+">
+<a name="lastpost"></a><table cellspacing="0" cellpadding="4" width="100%" align="center" class="t_row">
+<tbody><tr> <td width="100%" valign="top" class="t_user" style="padding-top:10px;background-color:white;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td width="13%" align="center" valign="top">
+<table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="120" height="120" align="center" valign="middle" bgcolor="#cccccc" style="padding:0;color:white;font-size:10pt;font-family:新細明體;">無頭像</td></tr></tbody></table>
+</td>
+<td width="45%" align="left" valign="top" style="padding-left:10px;color:green;">
+<a href="http://skins.freebbs.tw/viewpro.php?uid=75" target="_blank" class="bold">s0909093333</a>
+<br><div class="smalltxt">
+註冊會員<br>
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/star_level1.gif" alt="Rank: 1"><br>
+<br>
+積分 0<br>
+帖子 2<br>
+註冊 2013-6-11<br>
+用戶註冊天數 628<br>
+</div>
+發表於 2013-6-20 10:52&nbsp;
+</td>
+<td width="42%" align="right" valign="top">
+<div class="right t_number"><a href="http://skins.freebbs.tw/viewthread.php?tid=205###" class="bold" onclick="window.clipboardData.setData(&#39;text&#39;,&#39;http://skins.freebbs.tw/viewthread.php?tid=205&amp;page=1#pid1113&#39;)">#2</a></div>
+<div style="padding-top: 4px;">
+<a href="http://skins.freebbs.tw/pm.php?action=send&uid=75" target="_blank">短消息</a>&nbsp;
+<a href="http://skins.freebbs.tw/viewthread.php?tid=205###" onclick="scroll(0,0)"><img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/top.gif" border="0" alt="頂部"></a>
+</div>
+</td>
+</tr></tbody></table>
+</td>
+</tr>
+<tr><td valign="top" class="" height="100%" style="padding-top:10px;">
+<table class="t_msg" cellspacing="0" cellpadding="0" border="0" width="100%"><tbody><tr><td style="padding:0;">
+<a name="pid1113" href="http://skins.freebbs.tw/misc.php?action=viewratings&tid=205&pid=1113" title="評分 0"></a>
+<div style="font-size: 11pt;padding-left:30px;">大大 看了您的文章 讓我想自己做個模組...<br>
+自己已經拉出一個樣子...但是在輸出Skn檔的時候<br>
+他顯示 : <br>
+<font style="font-size: 11pt">Export;</font><br>
+file -force -options "" -type "League of Legends - export skin" -pr -ea "C:/Documents and Settings/Administrator/桌面/DATA/Test.skn";<br>
+// sk::Exporter: only support "export selected"<br>
+// Error: Could not save file "C:/Documents and Settings/Administrator/桌面/DATA/Test.skn". // <br>
+然後就不給匯出<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/10.gif" smilieid="4" border="0" alt=""><br>
+怎麼辦QAQQQ我嘗試用<font color="#333333"><font style="font-size: 11pt">lolskintool.exe 我用MAYA匯出.obj檔 然後改成.txt...<br>
+使用&nbsp;&nbsp;</font></font><font color="#333333"><font style="font-size: 11pt">lolskintool.exe c skn Ahri.txt Ahri.skn </font></font><br>
+<font color="#333333">有變成SKN檔 不過檔案大小從900KB變成200多MB...放進去LOL資料夾後 無法使用...<br>
+求大大救救渺小的我ˊ口ˋ"</font><br>
+<br>
+[<i> 本帖最後由 s0909093333 於 2013-6-22 17:05 編輯 </i>]</div>
+<br><br>
+</td></tr></tbody></table></td></tr>
+<tr><td align="right">
+</td></tr>
+</tbody></table></div>
+</form>
+</div>
+<script type="text/javascript">
+function setanswer(pid){
+if(confirm("您確認要把該回復選為「最佳答案」嗎？")){
+document.delpost.action='misc.php?action=bestanswer&tid=205&pid=' + pid + '&bestanswersubmit=yes';
+document.delpost.submit();
+}
+}
+</script>
+<div style="width:100%;clear:both;">
+<table width="98%" cellspacing="0" cellpadding="0" align="center">
+<tbody><tr><td valign="top">
+</td><td width="40%" align="right">
+<div class="right">&nbsp;<a href="http://skins.freebbs.tw/post.php?action=reply&fid=53&tid=205&extra=">
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/reply.gif" border="0" alt="">
+</a></div>
+<div id="newspecialfooter" class="right"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=">
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/newtopic.gif" border="0" alt="">
+</a><script type="text/javascript">menuregister(false, "newspecialfooter", true)</script></div>
+<div class="popupmenu_popup newspecialmenu" id="newspecialfooter_menu" style="display: none; width: 88px;">
+<table cellpadding="4" cellspacing="0" border="0" width="100%">
+<tbody><tr><td class="popupmenu_option"><div class="newspecial"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=&poll=yes">投票</a></div></td></tr>
+<tr><td class="popupmenu_option"><div class="newspecial"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=&trade=yes">交易</a></div></td></tr>
+<tr><td class="popupmenu_option"><div class="newspecial"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=&reward=yes">懸賞</a></div></td></tr>
+<tr><td class="popupmenu_option"><div class="newspecial"><a href="http://skins.freebbs.tw/post.php?action=newthread&fid=53&extra=&activity=yes">活動</a></div></td></tr>
+</tbody></table></div>
+</td></tr></tbody></table><br></div>
+<script type="text/javascript">
+var nshm = document.getElementById('newspecialheader_menu');
+var nsh = document.getElementById('newspecialheader');
+if(nshm) nshm.style.width = nsh.offsetWidth+'px';
+var nsfm = document.getElementById('newspecialfooter_menu');
+var nsf = document.getElementById('newspecialfooter');
+if(nsfm) nsfm.style.width = nsf.offsetWidth+'px';
+</script>
+<br>
+<div align="center" style="clear: both;"><a href="http://skins.freebbs.tw/announcement.php?id=3#3" target="_blank" style="font-size: 2em">LOLskins 廣告出租</a></div><br><br>
+<div align="center">
+<!-- BEGIN STANDARD TAG - 728 x 90 - SITE CODE REQUIRED : SECTION CODE REQUIRED - DO NOT MODIFY -->
+<div style="width:728px;height:90px;margin-left:auto; margin-right:auto;">
+<script>
+document.write("<script src='http://drd.hauchi.com.tw/DRD/drd_drid_256.js?rnd=" + Math.random() + Date.parse(new Date()) + "'></sc" + "ript>");
+</script><script src="http://drd.hauchi.com.tw/DRD/drd_drid_256.js?rnd=0.164467338472604751425205332000"></script>
+</div>
+<!-- END TAG -->
+</div><br><!-- <div class="maintable" style="color: #666; clear: both;"> -->
+<!-- 當前時區 GMT+8, 現在時間是 2015-3-1 18:22 -->
+<!-- <br><br> -->
+<!-- </div> -->
+
+<!-- <div class="footerline"><div><a href="#top"><img border="0" src="/images/default/footer_top.gif" alt="" /></a></div></div> -->
+<style type="text/css" id="css">
+table.footer_color tr, table.footer_color.td{
+  margin:0px;
+  padding:0px;
+}
+table.footer_color{
+  color:#154BA0;
+  background-image: url("/images/default/header_bg.gif");
+}
+table.footer_color a{
+  color:#154BA0;
+}
+</style>
+<div style="width:98%;">
+<table class="footer_color" cellspacing="0" cellpadding="0" border="0" width="100%" height="30" style="margin-top:5px;">
+<tbody><tr>
+<td width="6" valign="middle" style="padding-left:3px;">
+<img src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/lidot.gif" align="absmiddle" border="0" alt="">
+</td>
+<td align="left" valign="middle" style="font-size: 11px">
+&nbsp;&nbsp;Powered by&nbsp;<b>Discuz!</b>&nbsp;&#169;&nbsp;Comsenz Inc.
+<!-- Powered by <a href="http://pay.5d6d.com" target="_blank" style="color: blue"><b>Discuz!</b></a> <b style="color:#68d300">5.0.0</b>
+&nbsp;&copy; 2001-2006 <a href="http://www.5d6d.com" target="_blank">Comsenz Inc.</a>
+ -->
+</td>
+<td valign="middle" align="right">
+<a href="http://www.freebbs.tw/accusations/new">檢舉論壇</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<script type="text/javascript">
+if(adid>0) document.write("<script src='http://ysm.hauchi.com.tw/YSMAD/YSMAD_adid_" + adid + ".js?rnd=" + Math.random() + Date.parse(new Date()) + "'></sc" + "ript>");
+if(adid2>0) document.write("<script src='http://ysm.hauchi.com.tw/YSMAD/YSMAD_adid_" + adid2 + ".js?rnd=" + Math.random() + Date.parse(new Date()) + "'></sc" + "ript>");
+</script><script src="http://ysm.hauchi.com.tw/YSMAD/YSMAD_adid_975.js?rnd=0.335523608373478061425205332000"></script>
+<script src="./[精華]LOL教你製作skin造型與特效(二)3D模組篇 - &#10084;Skins精華 - LOLskins - Powered by Discuz!_files/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2260958-1";
+urchinTracker();
+</script>
+<!--<script type="text/javascript" src="http://tw.js.webmaster.yahoo.com/274743/ystat.js"></script><noscript><a href="http://tw.webmaster.yahoo.com"><img src=http://tw.img.webmaster.yahoo.com/274743/ystats.gif></a></noscript>-->
+
+</td></tr></tbody></table>
+</div>
+
+</div>
+</div>
+</div>
+<div class="mainborder" style="background-color:transparent;"></div>
+
+
+</center></body></html>
